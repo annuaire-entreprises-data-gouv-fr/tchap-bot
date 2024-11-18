@@ -1,0 +1,28 @@
+{
+  "name": "annuaire-entreprises-tchap-bot",
+  "version": "1.0.0",
+  "description": "A bot. For Tchap.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "type": "module",
+  "author": "annuaire-entreprises-data-gouv-fr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annuaire-entreprises-data-gouv-fr/tchap-bot"
+  },
+  "dependencies": {
+    "@sentry/node": "^8.38.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "matrix-bot-sdk": "^0.7.1"
+  }
+}
